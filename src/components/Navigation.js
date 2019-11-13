@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import svg from '../images/accounting.svg';
 
 const Navigation = (props) => {
@@ -17,7 +17,9 @@ const Navigation = (props) => {
         <li className="nav__list-item"><NavLink to="/kontakt" className="nav__link"><i className="fa fa-envelope" aria-hidden="true"></i>Kontakt</NavLink></li>
       </ul>
       <div className="nav__social-media">
-
+        <Link to="#" className="nav__social-element"><span className="fa fa-facebook-square" aria-hidden="true"></span></Link>
+        <Link to="#" className="nav__social-element"><span className="fa fa-instagram" aria-hidden="true"></span></Link>
+        <Link to="#" className="nav__social-element"><span className="fa fa-linkedin-square" aria-hidden="true"></span></Link>
       </div>
     </nav>
   );
