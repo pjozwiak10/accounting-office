@@ -3,6 +3,7 @@ import { NavLink, Link } from 'react-router-dom';
 import svg from '../images/accounting.svg';
 
 const Navigation = (props) => {
+
   return (
     <nav className="nav" style={props.isActive ? { transform: 'translateX(0)' } : null}>
       <div className="nav__logo">

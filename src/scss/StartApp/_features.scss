@@ -1,0 +1,41 @@
+.features {
+  overflow: hidden;
+  width: 90%;
+  margin-left: 10%;
+  &__feature{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 7%;
+  }
+  &__feature-image {
+    width: 50%;
+    align-self: center;
+  }
+  &__feature-header {
+    font-size: 2rem;
+    margin: 10% 0;
+  }
+  &__feature-description {
+    font-size: 1.6rem;
+  }
+  &__feature-btn {
+    margin: 5% 0;
+    width: 50%;
+    align-self: center;
+    background-color: #2F90FF;
+    padding: 5px 10px;
+    border: none;
+    font-size: 1.6rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    border-radius: 10px;
+    &:hover {
+      background-color: #4A00FF;
+    }
+  }
+}

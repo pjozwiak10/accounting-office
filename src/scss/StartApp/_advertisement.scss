@@ -1,0 +1,27 @@
+.advertisements {
+  width: 90%;
+  margin-left: 10%;
+  // display: flex;
+  // flex-direction: column;
+  overflow: hidden;
+  &__advertisement{
+    padding: 5% 5% 5% 10%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__image {
+    display: block;
+    width: 20%;
+  }
+  &__header{
+    width: 80%;
+    font-size: 2rem;
+    padding-left: 10%;
+    padding-top: 5%;
+  }
+  &__description {
+    padding-top: 5%;
+    font-size: 1.4rem;
+  }
+}

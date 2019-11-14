@@ -13,9 +13,11 @@ class NavigationBar extends Component {
   }
 
   render() {
+
     return (
       <>
         <div className="nav-bar">
+
           <div className="nav-bar__btn">
             <span className="fa fa-bars" aria-hidden="true" onClick={this.handleClick} style={this.state.isActive ? { transform: 'rotate(90deg)' } : null}
             >
