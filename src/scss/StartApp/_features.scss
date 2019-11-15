@@ -7,7 +7,12 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 7%;
+    padding: 7% 0;
+    &--bgi {
+      background-image: url('../../images/features/office.jpg');
+      background-size: cover;
+      background-position: center center;
+    }
   }
   &__feature-image {
     width: 50%;
@@ -16,9 +21,20 @@
   &__feature-header {
     font-size: 2rem;
     margin: 10% 0;
+    padding: 0 5%;
+    &--second {
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    }
   }
   &__feature-description {
     font-size: 1.6rem;
+    padding:0 5%;
+    &--second {
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    text-align: justify;
+    }
   }
   &__feature-btn {
     margin: 5% 0;

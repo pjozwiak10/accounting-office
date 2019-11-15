@@ -6,6 +6,7 @@ const Slide = ({ image, descriptionH1, descriptionH2 }) => {
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center center',
+    backgroundAttachment: 'fixed',
   }
   return (
     <div className="header-slider__slide" style={styles}>

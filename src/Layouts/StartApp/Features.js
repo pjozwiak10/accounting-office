@@ -52,8 +52,8 @@ class Features extends Component {
         </div>
         <div className="features__feature features__feature--bgi">
           <img src={profits} alt="profits" className="features__feature-image" ref='profits1' />
-          <h1 className="features__feature-header" ref='profits2'>Biuro Rachunkowe Szczecin</h1>
-          <p className="features__feature-description" ref='profits3'>{descriptionSecond}</p>
+          <h1 className="features__feature-header features__feature-header--second" ref='profits2'>Biuro Rachunkowe Szczecin</h1>
+          <p className="features__feature-description features__feature-description--second" ref='profits3'>{descriptionSecond}</p>
           <Link to='usługi' className="features__feature-btn features__feature-btn--second" ref='profits4'>&#x2713; Oferta</Link>
         </div>
       </section>
