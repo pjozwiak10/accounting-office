@@ -1,8 +1,13 @@
 import React from 'react';
+import PriceList from '../Layouts/PriceList/PriceList';
+import Footer from '../Layouts/StartApp/Footer';
 
 const PriceListApp = () => {
   return (
-    <p>cennik</p>
+    <>
+      <PriceList />
+      <Footer />
+    </>
   );
 }
 

@@ -1,0 +1,38 @@
+.services {
+  margin-left: 10%;
+  width: 90%;
+  padding: 5%;
+  &__main-header {
+    font-size: 1.8rem;
+    margin-bottom: 5%;
+  }
+  &__elements-all {
+    display: flex;
+    flex-direction: column;
+  }
+  &__elements {
+    list-style: none;
+  }
+  &__side-header {
+    font-size: 1.4rem;
+  }
+  &__element {
+    margin: 10% 0;
+    display: flex;
+    align-items: flex-start;
+  }
+  .fa-check {
+    display: block;
+    padding: 6%;
+    background-color: #ccc;
+    border-radius: 50%;
+    font-size: 3rem;
+    color:white;
+    margin-right: 10%;
+    transform: translateY(0);
+  }
+  &__element-info {
+    font-size: 1.5rem;
+    color: #999;
+  }
+}
