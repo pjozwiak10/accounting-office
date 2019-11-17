@@ -1,7 +1,7 @@
 import React from 'react';
 import image from '../../images/footer/footer.jpg';
 
-const content = 'Nasze biuro rachunkowe powstało z myślą o małych i średnich przedsiębiorstwach, ich potrzebach oraz problemach pojawiających się w trakcie prowadzonej działalności. Posiadamy Certyfikat Księgowy Ministerstwa Finansów numer XXXXX/2007 poświadaczający nasze wysokie kwalifikacje. Jesteśmy młodym i dynamicznym zespołem specjalistów, których celem jest ciągłe wspieranie i rozwój naszych przedsiębiorców poprzez zapewnienie im kompleksowej obsługi w zakresie usług księgowych, finansowych oraz prawnych.'
+const content = 'Nasze biuro rachunkowe powstało z myślą o małych i średnich przedsiębiorstwach, ich potrzebach oraz problemach pojawiających się w trakcie prowadzonej działalności. Posiadamy Certyfikat Księgowy Ministerstwa Finansów numer XXXXX/2007 poświadczający nasze wysokie kwalifikacje. Jesteśmy młodym i dynamicznym zespołem specjalistów, których celem jest ciągłe wspieranie i rozwój naszych przedsiębiorców poprzez zapewnienie im kompleksowej obsługi w zakresie usług księgowych, finansowych oraz prawnych.'
 
 const Footer = () => {
   return (

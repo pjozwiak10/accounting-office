@@ -25,7 +25,7 @@ class NavigationBar extends Component {
             <p className="nav-bar__name">Menu</p>
           </div>
         </div>
-        <Navigation isActive={this.state.isActive} />
+        <Navigation isActive={this.state.isActive} changeMenu={this.handleClick} />
       </>
     );
   }
