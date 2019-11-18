@@ -126,7 +126,7 @@
     border:1px solid #ddd;
   }
   &__form-button {
-    margin-top: 5%;
+    margin-top: 10%;
     padding: 5% 10%;
     font-size: 1.4rem;
     background-image: linear-gradient(135deg ,#00c6ff,#0072ff );
@@ -135,5 +135,12 @@
     color: #FCFCFC;
     cursor: pointer;
     letter-spacing: 1px;
+  }
+  &__form-error {
+    color: red;
+  }
+  &__form-final-message {
+    margin-top: 5%;
+    font-size: 1.4rem;
   }
 }
