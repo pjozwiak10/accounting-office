@@ -1,4 +1,6 @@
 import React from 'react';
+import Footer from '../Layouts/StartApp/Footer';
+import Contact from '../Layouts/Contact/Contact';
 
 const ContactApp = () => {
 
@@ -9,7 +11,10 @@ const ContactApp = () => {
   })
 
   return (
-    <p>kontakt</p>
+    <>
+      <Contact />
+      <Footer />
+    </>
   );
 }
 
