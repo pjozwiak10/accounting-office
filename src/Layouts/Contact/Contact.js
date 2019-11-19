@@ -13,7 +13,8 @@ const Contact = () => {
         <div className="contact__info-element">
           <div className="contact__info-description">
             <p className="contact__info-text">SIEDZIBA FIRMY</p>
-            <p className="contact__info-text contact__info-text--small">ul. Pomorska 115B</p>
+            <p className="contact__info-text contact__info-text--small">Budynek Animex Szczecin</p>
+            <p className="contact__info-text contact__info-text--small">ul. Pomorska 115B, pokój 612</p>
             <p className="contact__info-text contact__info-text--small">70-812 Szczecin</p>
           </div>
           <i className="fa fa-map-signs contact__info-picture" aria-hidden="true"></i>

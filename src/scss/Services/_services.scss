@@ -2,23 +2,41 @@
   margin-left: 10%;
   width: 90%;
   padding: 5%;
+  @include mq(desktop) {
+    margin-left: 5%;
+    width: 95%;
+  }
   &__main-header {
     font-size: 2rem;
     margin-bottom: 5%;
     font-weight: normal;
+    @include mq(desktop) {
+      font-size: 3rem;
+    }
   }
   &__elements-all {
     display: flex;
     flex-direction: column;
+    @include mq(desktop) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
   }
   &__elements {
     list-style: none;
+    @include mq(desktop) {
+      width: 48%;
+    }
   }
   &__side-header {
     margin-top: 5%;
     font-size: 1.8rem;
     color: #999;
     font-weight: normal;
+    @include mq(desktop) {
+      font-size: 2.2rem;
+    }
   }
   &__element {
     margin: 10% 0;
@@ -34,14 +52,25 @@
     color:white;
     margin-right: 10%;
     transform: translateY(0);
+    @include mq(desktop) {
+      width: 20%;
+      text-align: center;
+    }
   }
   &__element-info {
     font-size: 1.5rem;
     color: #999;
+    @include mq(desktop) {
+      font-size: 1.8rem;
+    }
   }
   &__element-header {
     font-size: 1.4rem;
     margin-bottom: 5%;
+    @include mq(desktop) {
+      text-align: center;
+      font-size: 1.8rem;
+    }
   }
   .fa-check--second {
     margin-right: 0;
@@ -50,5 +79,9 @@
   &__summary-text {
     text-align: center;
     font-size: 1.6rem;
+    @include mq(desktop) {
+      width: 100%;
+      font-size: 2.2rem;
+    }
   }
 }

@@ -35,7 +35,7 @@ class Form extends Component {
         mail: '',
         title: '',
         textarea: '',
-        message: 'Twoje zapytanie zostało wysłane, odpowiemy najszybciej jak to możliwe!',
+        message: 'Twoja wiadomość zostało wysłana, odpowiemy najszybciej jak to możliwe!',
 
         errors: {
           firstName: false,

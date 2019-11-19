@@ -1,27 +1,45 @@
 .advertisements {
   width: 90%;
   margin-left: 10%;
-  // display: flex;
-  // flex-direction: column;
   overflow: hidden;
+  @include mq(desktop) {
+    margin-top: 5%;
+    display: flex;
+    margin-left: 5%;
+    width: 95%;
+  }
   &__advertisement{
     padding: 5% 5% 5% 10%;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    @include mq(desktop) {
+      width: 34%;
+      padding: 2%;
+    }
   }
   &__image {
     display: block;
     width: 20%;
+    @include mq(desktop) {
+      width: 30%;
+    }
   }
   &__header{
     width: 80%;
     font-size: 2rem;
     padding-left: 10%;
     padding-top: 5%;
+    @include mq(desktop) {
+      width: 70%;
+      font-size: 2.5rem;
+    }
   }
   &__description {
     padding-top: 5%;
     font-size: 1.4rem;
+    @include mq(desktop) {
+      font-size: 1.8rem;
+    }
   }
 }

@@ -2,6 +2,10 @@
   overflow: hidden;
   width: 90%;
   margin-left: 10%;
+  @include mq(desktop) {
+    margin-left: 5%;
+    width: 95%;
+  }
   &__feature{
     position: relative;
     width: 100%;
@@ -13,15 +17,30 @@
       background-size: cover;
       background-position: center center;
     }
+    @include mq(desktop) {
+      flex-direction: row;
+      padding: 5% 0 5% 5%;
+    }
+  }
+  
+  &__feature-element{
+    display: flex;
+    flex-direction: column;
   }
   &__feature-image {
     width: 50%;
     align-self: center;
+    @include mq(desktop) {
+      width: 25%;
+    }
   }
   &__feature-header {
     font-size: 2rem;
     margin: 10% 0;
     padding: 0 5%;
+    @include mq(desktop) {
+      font-size: 3rem;
+    }
     &--second {
     color: white;
     background-color: rgba(0,0,0,0.5);
@@ -30,6 +49,9 @@
   &__feature-description {
     font-size: 1.6rem;
     padding:0 5%;
+    @include mq(desktop) {
+      font-size: 2.2rem;
+    }
     &--second {
     color: white;
     background-color: rgba(0,0,0,0.5);
@@ -50,6 +72,10 @@
     color: white;
     transition: 0.5s;
     border-radius: 10px;
+    @include mq(desktop) {
+      font-size: 2rem;
+      width: 30%;
+    }
     &:hover {
       background-color: #4A00FF;
     }

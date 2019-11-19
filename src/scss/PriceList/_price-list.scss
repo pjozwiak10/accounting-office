@@ -2,19 +2,32 @@
   margin-left: 10%;
   width: 90%;
   padding: 5%;
+  @include mq(desktop) {
+    margin-left: 5%;
+    width: 95%;
+  }
   &__header {
     font-size: 1.8rem;
     margin-bottom: 5%;
+    @include mq(desktop) {
+      font-size: 2.6rem;
+    }
   }
   &__information {
     color: rgba(0,0,0,0.5);
     font-size: 0.9rem;
     font-weight: bold;
     margin-bottom: 5%;
+    @include mq(desktop) {
+      font-size: 1.4rem;
+    }
   }
   &__smaller-header {
     font-size: 1.6rem;
     margin-bottom: 2.5%;
+    @include mq(desktop) {
+      font-size: 2.2rem;
+    }
   }
   &__list {
     list-style: none;
@@ -23,10 +36,18 @@
     font-size: 1.2rem;
     padding: 2.5% 0;
     border-bottom: 1px solid #ccc;
+    @include mq(desktop) {
+      font-size: 1.8rem;
+      line-height: 1.4;
+    }
   }
   .fa-check {
     font-size: 1.4rem;
     margin-right: 2.5%;
+    @include mq(desktop) {
+      font-size: 2.2rem;
+      margin-right: 1.5%;
+    }
   }
 }
 
@@ -35,24 +56,41 @@
   &__header {
     text-align: center;
     font-size: 2rem;
+    @include mq(desktop) {
+      font-size: 2.6rem;
+    }
   }
   &__smaller-header {
     color: #008516;
     text-align: center;
     font-size: 1.4rem;
-    margin-top:5% ;
+    margin-top: 5%;
+    @include mq(desktop) {
+      font-size: 2rem;
+    }
   }
   &__list {
     list-style: none;
     display: flex;
     flex-direction: column;
     align-items: center;
+    @include mq(desktop) {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
   }
   &__list-item{
     width: 80%;
     margin-top: 10%;
+    @include mq(desktop) {
+      width: 23%;
+      margin-top: 5%;
+    }
   }
   &__list-item-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color:white;
     background-color: #000;
     font-size: 1.6rem;
@@ -60,6 +98,10 @@
     padding: 10% 10%;
     border: 1px solid black;
     border-radius: 10px 10px 0 0;
+    @include mq(desktop) {
+      font-size: 2rem;
+      height: 15vh;
+    }
   }
   &__list-item-info {
     border: 1px solid black;
@@ -67,9 +109,15 @@
     text-align: center;
     border-radius:0 0 10px 10px;
     font-size: 1.2rem;
+    @include mq(desktop) {
+      font-size: 1.6rem;
+    }
     .element{
       font-size: 2rem;
       margin: 0 1%;
+      @include mq(desktop) {
+        font-size: 2.4rem;
+      }
     }
   }
   &__summary {
@@ -77,6 +125,9 @@
     color: #555;
     margin-top: 5%;
     text-align: center;
+    @include mq(desktop) {
+      font-size: 1.6rem;
+    }
   }
 }
 
@@ -84,6 +135,9 @@
   margin-top: 10%;
   &__header {
     font-size: 1.6rem;
+    @include mq(desktop) {
+      font-size: 2.2rem;
+    }
   }
   &__list {
     list-style: none;
@@ -95,6 +149,9 @@
   margin-top: 5%;
   font-size: 1.6rem;
   text-align: center;
+  @include mq(desktop) {
+    font-size: 2rem;
+  }
 }
 .additional-description-second {
   margin-top:5%;
@@ -102,4 +159,8 @@
   font-size: 1.2rem;
   padding-bottom: 5%;
   border-bottom: 1px solid #ccc;
+  @include mq(desktop) {
+    font-size: 1.4rem;
+    padding: 0 10% 5% 10%;
+  }
 }

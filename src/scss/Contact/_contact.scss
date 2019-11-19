@@ -1,11 +1,18 @@
 .contact {
   margin-left: 10%;
   width: 90%;
+  @include mq(desktop) {
+    margin-left: 5%;
+    width: 95%;
+  }
   &__header{
     position: relative;
     height: 50vh;
     background-image: url('../../images/contact/city.jpg');
     background-size: cover;
+    @include mq(desktop) {
+      height: 60vh;
+    }
   }
   &__header-text {
     position: absolute;
@@ -17,18 +24,30 @@
     color: #ddd;
     width: 100%;
     padding: 2% 5%;
+    line-height: 1.5;
     text-align: center;
+    @include mq(desktop) {
+      font-size: 2.4rem;
+    }
   }
   &__info {
     display: flex;
     flex-direction: column;
     padding: 5%;
+    @include mq(desktop) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
   }
   &__info-element{
     display: flex;
     justify-content: center;
     align-items: flex-start;
     margin-top: 10%;
+    @include mq(desktop) {
+      width: 49%;
+      margin-top: 5%;
+    }
   }
   &__info-picture {
     padding: 6%;
@@ -37,6 +56,11 @@
     font-size: 3rem;
     border-radius: 50%;
     margin-left: 10%;
+    @include mq(desktop) {
+      font-size: 6rem;
+      width: 25%;
+      text-align: center;
+    }
     &--second {
       margin-left: 0;
       margin-right: 5%;
@@ -46,9 +70,15 @@
     font-size: 1.6rem;
     line-height: 150%;
     font-weight: bold;
+    @include mq(desktop) {
+      font-size: 2.4rem;
+    }
     &--small{
       font-size: 1.4rem;
       color: #5781C3;
+      @include mq(desktop) {
+        font-size: 2.2rem;
+      }
     }
   }
   &__company {
@@ -64,6 +94,9 @@
   &__company-data-text {
    font-size: 1rem;
    line-height: 1.5;
+   @include mq(desktop) {
+    font-size: 2.5rem;
+  }
    &--important {
      font-weight: bold;
    }
@@ -72,16 +105,26 @@
     display: flex;
     flex-direction: column;
     padding: 0 5%;
+    @include mq(desktop) {
+      flex-direction: row-reverse;
+      justify-content: space-between;
+    }
   }
   &__message-aside {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 10%;
+    @include mq(desktop) {
+      width: 35%;
+    }
   }
   &__message-image {
     width: 50%;
     margin: 10% 0;
+    @include mq(desktop) {
+      width: 60%;
+    }
   }
   &__message-text {
     width: 100%;
@@ -89,17 +132,26 @@
     padding-top: 10%;
     border-top: 1px solid #ccc;
     font-size: 1.6rem;
+    @include mq(desktop) {
+      font-size: 2rem;
+    }
     &--small {
       padding-top: 0;
       border: none;
       font-size: 1.2rem;
       margin-top: 5%;
+      @include mq(desktop) {
+        font-size: 1.6rem;
+      }
     }
   }
   &__form {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    @include mq(desktop) {
+      width: 60%;
+    }
   }
   &__form-element {
     display: flex;
@@ -113,21 +165,31 @@
   &__form-label {
     font-size: 1.2rem;
     margin-bottom: 1%;
+    @include mq(desktop) {
+      font-size: 1.8rem;
+    }
   }
   &__form-input {
     padding: 2% 2%;
     background-color: #FCFCFC;
     border: 1px solid #ddd;
+    @include mq(desktop) {
+      font-size: 1.8rem;
+    }
   }
   &__form-textarea{
     padding: 2% 2%;
     height: 30vh;
     background-color: #FCFCFC;
     border:1px solid #ddd;
+    @include mq(desktop) {
+      font-size: 1.8rem;
+    }
   }
   &__form-button {
     margin-top: 10%;
-    padding: 5% 10%;
+    width: 40%;
+    padding: 5% 0;
     font-size: 1.4rem;
     background-image: linear-gradient(135deg ,#00c6ff,#0072ff );
     border: none;
@@ -135,12 +197,24 @@
     color: #FCFCFC;
     cursor: pointer;
     letter-spacing: 1px;
+    @include mq(desktop) {
+      font-size: 2rem;
+      letter-spacing: 2px;
+      padding: 2.5% 0;
+      width: 25%;
+    }
   }
   &__form-error {
     color: red;
+    @include mq(desktop) {
+      font-size: 1.4rem;
+    }
   }
   &__form-final-message {
     margin-top: 5%;
     font-size: 1.4rem;
+    @include mq(desktop) {
+      font-size: 2.2rem;
+    }
   }
 }
