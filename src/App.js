@@ -14,10 +14,10 @@ class App extends Component {
         <Router>
           <NavigationBar />
           <Switch>
-            <Route path="/" exact component={StartApp} />
-            <Route path="/usługi" component={ServicesApp} />
-            <Route path="/cennik" component={PriceListApp} />
-            <Route path="/kontakt" component={ContactApp} />
+            <Route path="/Project2" exact component={StartApp} />
+            <Route path="/Project2/usługi" component={ServicesApp} />
+            <Route path="/Project2/cennik" component={PriceListApp} />
+            <Route path="/Project2/kontakt" component={ContactApp} />
           </Switch>
         </Router>
       </div>

@@ -88,12 +88,6 @@ class Header extends Component {
             transition: '1s linear',
           }}
         >
-          {/* {
-            this.state.images.map((image, i) => (
-              <Slide key={i} image={image} />
-            ))
-          } */}
-
           <Slide image={this.state.images[0]} descriptionH1={this.description.h1[0]} descriptionH2={this.description.h2[0]} />
           <Slide image={this.state.images[1]} descriptionH1={this.description.h1[1]} descriptionH2={this.description.h2[1]} />
           <Slide image={this.state.images[2]} descriptionH1={this.description.h1[2]} descriptionH2={this.description.h2[2]} />
