@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/accounting-office/static/css/main.eb6c1542.chunk.css",
-    "main.js": "/accounting-office/static/js/main.f68766af.chunk.js",
-    "main.js.map": "/accounting-office/static/js/main.f68766af.chunk.js.map",
+    "main.js": "/accounting-office/static/js/main.0f16b233.chunk.js",
+    "main.js.map": "/accounting-office/static/js/main.0f16b233.chunk.js.map",
     "runtime-main.js": "/accounting-office/static/js/runtime-main.65877684.js",
     "runtime-main.js.map": "/accounting-office/static/js/runtime-main.65877684.js.map",
     "static/js/2.9c2a21db.chunk.js": "/accounting-office/static/js/2.9c2a21db.chunk.js",
     "static/js/2.9c2a21db.chunk.js.map": "/accounting-office/static/js/2.9c2a21db.chunk.js.map",
     "index.html": "/accounting-office/index.html",
-    "precache-manifest.fd09e00a8c4f11aea4c13a89fe246a11.js": "/accounting-office/precache-manifest.fd09e00a8c4f11aea4c13a89fe246a11.js",
+    "precache-manifest.5ca8db2999551de91fba4262a20269f7.js": "/accounting-office/precache-manifest.5ca8db2999551de91fba4262a20269f7.js",
     "service-worker.js": "/accounting-office/service-worker.js",
     "static/css/main.eb6c1542.chunk.css.map": "/accounting-office/static/css/main.eb6c1542.chunk.css.map",
     "static/media/accounting.svg": "/accounting-office/static/media/accounting.6866009e.svg",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.65877684.js",
     "static/js/2.9c2a21db.chunk.js",
     "static/css/main.eb6c1542.chunk.css",
-    "static/js/main.f68766af.chunk.js"
+    "static/js/main.0f16b233.chunk.js"
   ]
 }
