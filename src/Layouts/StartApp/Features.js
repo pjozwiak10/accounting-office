@@ -49,7 +49,7 @@ class Features extends Component {
           <div className="features__feature-element">
             <h1 className="features__feature-header" ref='users2'>Księgowość powierz specjalistom</h1>
             <p className="features__feature-description" ref='users3'>{descriptionFirst}</p>
-            <Link to='/Project2/kontakt' className="features__feature-btn" ref='users4'>&#x2713; Kontakt</Link>
+            <Link to='/accounting-office/kontakt' className="features__feature-btn" ref='users4'>&#x2713; Kontakt</Link>
           </div>
         </div>
         <div className="features__feature features__feature--bgi">
@@ -57,7 +57,7 @@ class Features extends Component {
           <div className="features__feature-element">
             <h1 className="features__feature-header features__feature-header--second" ref='profits2'>Biuro Rachunkowe Szczecin</h1>
             <p className="features__feature-description features__feature-description--second" ref='profits3'>{descriptionSecond}</p>
-            <Link to='/Project2/usługi' className="features__feature-btn features__feature-btn--second" ref='profits4'>&#x2713; Oferta</Link>
+            <Link to='/accounting-office/usługi' className="features__feature-btn features__feature-btn--second" ref='profits4'>&#x2713; Oferta</Link>
           </div>
         </div>
       </section>
